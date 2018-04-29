@@ -17,7 +17,7 @@ phone = +41 (0)44 508 26 76
 website = http://www.optinomic.com/
 
 [template ISK-K 6 12]
-__opapp_include(../lib/polymer/index.m4)
+__opapp_include(lib/polymer/index.m4)
 __opapp_include(elements/element-isk.html)
 __opapp_include(elements/view.html)
 
