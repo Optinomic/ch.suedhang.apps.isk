@@ -67,7 +67,7 @@ app.controller('AppCtrl', function($scope, $filter, dataService, scopeDService) 
 
         data_query = {
             name: 'ISK - Export',
-            sql: __opapp_include_as_js_string(includes/export.sql)
+            sql: __opapp_include_as_js_string(../includes/export.sql)
         };
         module_packages.push(data_query);
 
